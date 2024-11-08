@@ -1,0 +1,11 @@
+# Flutter/Dart specific
+build/
+.pub/
+.dart_tool/
+.flutter-plugins
+.packages
+# IDE specific
+.idea/
+.vscode/
+# macOS specific
+.DS_Store
