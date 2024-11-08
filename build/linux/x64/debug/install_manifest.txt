@@ -2,7 +2,6 @@
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/icudtl.dat
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
-/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
