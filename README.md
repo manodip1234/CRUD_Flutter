@@ -1,4 +1,4 @@
-# crud_application
+# crud_flutter
 
 A new Flutter project.
 

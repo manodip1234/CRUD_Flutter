@@ -1,8 +1,8 @@
-# Install script for directory: /home/manodip/WORK/Flutter/crud_application/linux
+# Install script for directory: /home/manodip/WORK/Flutter/CRUD_Flutter/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,95 +39,95 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application")
+  if(EXISTS "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application"
+         FILE "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application")
+   "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/intermediates_do_not_run/crud_application")
-  if(EXISTS "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application")
+file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/intermediates_do_not_run/crud_flutter")
+  if(EXISTS "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application"
-         OLD_RPATH "/home/manodip/WORK/Flutter/crud_application/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter"
+         OLD_RPATH "/home/manodip/WORK/Flutter/CRUD_Flutter/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/crud_application")
+      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/crud_flutter")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/data/icudtl.dat")
+   "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/manodip/WORK/Flutter/crud_application/linux/flutter/ephemeral/icudtl.dat")
+file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/manodip/WORK/Flutter/CRUD_Flutter/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
+   "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/manodip/WORK/Flutter/crud_application/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/manodip/WORK/Flutter/CRUD_Flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/lib/")
+   "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/lib/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/manodip/WORK/Flutter/crud_application/build/native_assets/linux/")
+file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/manodip/WORK/Flutter/CRUD_Flutter/build/native_assets/linux/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/data/flutter_assets")
+   "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/manodip/WORK/Flutter/crud_application/build//flutter_assets")
+file(INSTALL DESTINATION "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/manodip/WORK/Flutter/CRUD_Flutter/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
@@ -139,5 +139,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

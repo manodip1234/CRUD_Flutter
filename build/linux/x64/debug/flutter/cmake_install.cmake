@@ -1,8 +1,8 @@
-# Install script for directory: /home/manodip/WORK/Flutter/crud_application/linux/flutter
+# Install script for directory: /home/manodip/WORK/Flutter/CRUD_Flutter/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

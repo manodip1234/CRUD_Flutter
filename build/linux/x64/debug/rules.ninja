@@ -22,7 +22,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__crud_application
+rule CXX_COMPILER__crud_flutter
   depfile = $DEP_FILE
   deps = gcc
   command = /snap/flutter/current/usr/bin/clang++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -32,7 +32,7 @@ rule CXX_COMPILER__crud_application
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__crud_application
+rule CXX_EXECUTABLE_LINKER__crud_flutter
   command = $PRE_LINK && /snap/flutter/current/usr/bin/clang++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__crud_application
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /var/lib/snapd/snap/flutter/145/usr/bin/cmake -S/home/manodip/WORK/Flutter/crud_application/linux -B/home/manodip/WORK/Flutter/crud_application/build/linux/x64/debug
+  command = /var/lib/snapd/snap/flutter/145/usr/bin/cmake -S/home/manodip/WORK/Flutter/CRUD_Flutter/linux -B/home/manodip/WORK/Flutter/CRUD_Flutter/build/linux/x64/debug
   description = Re-running CMake...
   generator = 1
 
